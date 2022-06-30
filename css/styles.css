@@ -1,0 +1,78 @@
+/* Titulo principal */
+section h1 {
+	text-align: center;
+	padding: 10px;
+	width: 300px;
+	height: 20px;
+	margin: 10px 200px;
+	border-bottom: thin solid black;
+}
+
+/* alinhando conteudo tag main */
+main {
+	align-content: center;
+}
+
+/* imagem com animacao */
+.goomba {
+	position: relative;
+	top: 30px;
+	background-image: url('../img/goomba.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	margin: 0px 350px;
+	animation: animacao 8s infinite;
+}
+
+/* animacao da imagem */
+@keyframes animacao {
+	0% {left: 0;}
+	50% {left: 600px;}
+	100% {left: 0;}
+}
+
+/* secao que acopla todo o conteudo */
+#principal {
+	font-family: 'Arial';
+	font-size: 1.1em;
+	position: relative;
+	left: 350px;
+	width : 700px;
+	height: 400px;
+	border: 1px solid black;
+	top: 10px;
+	border-radius: 20px;
+	background-image: url(../img/mario-bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+/* descricao do curriculo */
+.descricao {
+	top: 50px;
+	margin: 20px 500px 20px 20px;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+}
+
+.descricao p {
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/* foto do curriculo */
+.foto {
+	background-image: url('../img/perfil.jpg');
+	height: 200px;
+	width: 200px;
+	background-position: center;
+	background-size: cover;
+	float: right;
+	margin: 50px 40px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
