@@ -1,3 +1,7 @@
+html {
+	font-family: 'Arial';
+}
+
 /* Titulo principal */
 section h1 {
 	text-align: center;
@@ -14,10 +18,10 @@ main {
 }
 
 /* imagem com animacao */
-.goomba {
+.cogumelo {
 	position: relative;
-	top: 30px;
-	background-image: url('../img/goomba.jpg');
+	top: 18px;
+	background-image: url('../img/cogumelo-mario.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 100px;
@@ -35,7 +39,6 @@ main {
 
 /* secao que acopla todo o conteudo */
 #principal {
-	font-family: 'Arial';
 	font-size: 1.1em;
 	position: relative;
 	left: 350px;
@@ -59,7 +62,7 @@ main {
 }
 
 .descricao p {
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.6);
 	border-radius: 5px;
 	padding: 5px;
 }
@@ -75,4 +78,31 @@ main {
 	margin: 50px 40px;
 	border-radius: 50%;
 	border: 1px solid black;
+}
+
+/* menu de navegacao */
+#menu {
+	position: relative;
+	padding: 10px;
+	margin-top: 10px;
+	width: 700px;
+	left: 350px;
+}
+
+#menu a {
+	font-family: 'Press Start 2P', cursive;
+	color: black;
+	margin-left: 25px;
+	text-align: center;
+	display: block;
+	font-size: 3.5em;
+	width: 600px;
+	padding: 10px 20px;
+	background-color: #ffbb00;
+	margin-top: 15px;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 5px solid black;
+	box-shadow: 5px 10px 10px white inset;
+
 }
