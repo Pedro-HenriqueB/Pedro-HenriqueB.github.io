@@ -1,40 +1,25 @@
 html {
 	font-family: 'Arial';
+	background-image: url(../img/html-bg.jpg);
+	background-position: center;
+	background-size: cover;
 }
 
 /* Titulo principal */
 section h1 {
+	color: white;
+	font-weight: bold;
 	text-align: center;
-	padding: 10px;
-	width: 300px;
-	height: 20px;
+	padding: 0.5%;
+	width: 50%;
+	height: 5%;
 	margin: 10px 200px;
-	border-bottom: thin solid black;
+	border-bottom: thin solid white;
 }
 
 /* alinhando conteudo tag main */
 main {
 	align-content: center;
-}
-
-/* imagem com animacao */
-.cogumelo {
-	position: relative;
-	top: 18px;
-	background-image: url('../img/cogumelo-mario.jpg');
-	background-size: cover;
-	background-position: center;
-	height: 100px;
-	width: 100px;
-	margin: 0px 350px;
-	animation: animacao 8s infinite;
-}
-
-/* animacao da imagem */
-@keyframes animacao {
-	0% {left: 0;}
-	50% {left: 600px;}
-	100% {left: 0;}
 }
 
 /* secao que acopla todo o conteudo */
@@ -47,14 +32,12 @@ main {
 	border: 1px solid black;
 	top: 10px;
 	border-radius: 20px;
-	background-image: url(../img/mario-bg.jpg);
-	background-position: center;
-	background-size: cover;
+	background-color: rgba(128, 128, 128, 0.4);
 }
 
 /* descricao do curriculo */
 .descricao {
-	top: 50px;
+	top: 35px;
 	margin: 20px 500px 20px 20px;
 	position: absolute;
 	width: 300px;
@@ -63,9 +46,9 @@ main {
 
 .descricao p {
 	background-color: rgba(255, 255, 255, 0.6);
-	border-radius: 5px;
-	padding: 5px;
-	box-shadow: 5px 5px rgba(255, 255, 255, 0.9);
+	border-radius: 30px;
+	padding: 15px;
+	box-shadow: 10px 10px 20px;
 }
 
 /* foto do curriculo */
@@ -78,22 +61,19 @@ main {
 	float: right;
 	margin: 50px 40px;
 	border-radius: 50%;
-	border: 1px solid black;
+	box-shadow: 10px 20px 20px;
 }
 
 /* menu de navegacao */
 #menu {
 	position: relative;
-	padding: 10px;
-	margin-top: 10px;
 	width: 700px;
 	left: 350px;
 }
 
 #menu a {
-	font-family: 'Press Start 2P', cursive;
 	color: black;
-	margin-left: 20px;
+	margin-left: 30px;
 	text-align: center;
 	display: block;
 	font-size: 3.5em;
@@ -101,9 +81,84 @@ main {
 	padding: 10px 20px;
 	background-color: #ffbb00;
 	margin-top: 15px;
+	margin-bottom: 15px;
 	text-decoration: none;
 	border-radius: 10px;
-	border: 5px solid black;
+	border: 1px solid white;
 	box-shadow: 5px 10px 10px white inset;
+	background-color: rgba(255, 255, 255, 0.3);
 
+}
+
+/* hovers */
+.descricao:hover {
+	transition: .5s;
+	top: 30px;
+}
+
+.descricao p:hover {
+	transition: .5s;
+	box-shadow: 5px 5px 20px white;
+}
+
+.foto:hover {
+	transition: .5s;
+	box-shadow: 5px 5px 20px white;
+	margin-top: 45px;
+}
+
+#menu a:hover {
+	transition: .5s;
+	width: 660px;
+	margin-left: 2px;
+	box-shadow: 5px 5px 20px white;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+
+	#principal {
+		left: 170px;
+	}
+
+	#menu {
+	left: 170px;
+	}
+}
+
+@media (max-width: 768px) {
+	#principal {
+		left: 35px;
+	}
+
+	#menu {
+	left: 35px;
+	}
+}
+
+@media (max-width: 425px) {
+	section h1 {
+	font-size: 1.6em;
+	border: none;
+	}
+
+	#principal {
+	width : 700px;
+	height: 700px;
+	}
+
+	.descricao {
+	font-size: 1.6em;
+	top: 300px;
+	position: absolute;
+	width: 600px;
+	left: 30px;
+	}
+
+	.foto {
+	height: 200px;
+	width: 200px;
+	margin: 20px 230px;
+	}
 }
