@@ -48,12 +48,17 @@ main {
 	background-color: rgba(255, 255, 255, 0.6);
 	border-radius: 30px;
 	padding: 15px;
-	box-shadow: 10px 10px 20px;
+	box-shadow: 10px 10px 20px black;
+}
+
+.descricao a {
+	text-decoration: none;
+	color: white;
 }
 
 /* foto do curriculo */
 .foto {
-	background-image: url('../img/perfil.jpg');
+	background-image: url('../img/foto.jpg');
 	height: 200px;
 	width: 200px;
 	background-position: center;
@@ -62,6 +67,10 @@ main {
 	margin: 50px 90px;
 	border-radius: 50%;
 	box-shadow: 10px 20px 20px;
+}
+
+#link-foto {
+	color: black;
 }
 
 /* menu de navegacao */
@@ -176,11 +185,39 @@ main {
 }
 
 @media (max-width: 425px) {
+	section h1 {
+		margin: 20px 85px;
+		height: 40px;
+	}
+
 	#principal {
-		left: 2px;
+		left: 40px;
+		width: 350px;
+		margin: 0;
+	}
+
+	.foto {
+		position: relative;
+		left: 75px;
+	}
+
+	.descricao {
+		left: 5px;
 	}
 
 	#menu {
-		left: 20px;
+		left: -15px;
+		margin: 0px 10px;
+	}
+
+	#menu a{
+		font-size: 1.8em;
+		width: 250px;
+		margin-left: 80px;
+	}
+
+	#menu a:hover {
+		width: 290px;
+		margin-left: 55px;
 	}
 }
