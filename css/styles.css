@@ -117,48 +117,70 @@ main {
 
 /* Responsividade */
 @media (max-width: 1024px) {
+	section h1 {
+		margin: 10px 120px;
+	}
 
 	#principal {
-		left: 170px;
+		left: 270px;
+		width: 500px;
+		height: 700px;
+	}
+
+	.foto {
+		margin-right: 150px;
+		margin-top: 20px;
+	}
+
+	.foto:hover {
+	transition: .5s;
+	box-shadow: 5px 5px 20px white;
+	margin-top: 5px;
+	}
+
+	.descricao {
+		top: 310px;
+		left: 80px;
+	}
+
+	.descricao:hover {
+	top: 280px;
 	}
 
 	#menu {
-	left: 170px;
+		left: 280px;
+		width: 450px;
+	}
+
+	#menu a {
+		width: 380px;
+	}
+
+	#menu a:hover {
+		width: 440px;
 	}
 }
 
 @media (max-width: 768px) {
 	#principal {
-		left: 35px;
+		left: 150px;
 	}
 
 	#menu {
-	left: 35px;
+		left: 150px;
+	}
+
+	#menu {
+		left: 160px;
 	}
 }
 
 @media (max-width: 425px) {
-	section h1 {
-	font-size: 1.6em;
-	border: none;
-	}
-
 	#principal {
-	width : 700px;
-	height: 700px;
+		left: 2px;
 	}
 
-	.descricao {
-	font-size: 1.6em;
-	top: 300px;
-	position: absolute;
-	width: 600px;
-	left: 30px;
-	}
-
-	.foto {
-	height: 200px;
-	width: 200px;
-	margin: 20px 230px;
+	#menu {
+		left: 20px;
 	}
 }
