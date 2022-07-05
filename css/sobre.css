@@ -5,9 +5,7 @@ html {
 
 /* cabecalho */
 .banner {
-	background-image: url(../img/banner.png);
-	background-size: cover;
-	background-position: center;
+	background-color: rgba(255, 255, 255, 0.3);
 	width: 100%;
 	border: 1px solid white;
 }
@@ -32,7 +30,6 @@ html {
 	color: white;
 	font-size: 1.2em;
 	font-weight: bold;
-	border-radius: 10px;
 
 }
 
@@ -41,13 +38,16 @@ html {
 	font-size: 1.5em;
 	color: white;
 	padding: 10px;
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.3);
 	margin: 0px 15%;
-	box-shadow: 0px 25px 50px white;
+}
+
+.principal p {
+	text-align: justify;
 }
 
 /* hovers */
 .menu a:hover {
 	transition: .5s;
-	box-shadow: 0px 2px 5px white inset;
+	background-color: rgba(255, 255, 255, 0.6);
 }
