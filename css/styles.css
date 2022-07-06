@@ -81,7 +81,7 @@ main {
 }
 
 #menu a {
-	color: black;
+	color: white;
 	margin-left: 30px;
 	text-align: center;
 	display: block;
@@ -96,7 +96,6 @@ main {
 	border: 1px solid white;
 	box-shadow: 5px 10px 10px white inset;
 	background-color: rgba(255, 255, 255, 0.3);
-
 }
 
 /* hovers */
@@ -120,6 +119,7 @@ main {
 	transition: .5s;
 	width: 660px;
 	margin-left: 2px;
+	color: black;
 	box-shadow: 5px 5px 20px white;
 	background-color: rgba(255, 255, 255, 0.8);
 }

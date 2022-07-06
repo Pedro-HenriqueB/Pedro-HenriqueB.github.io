@@ -51,3 +51,55 @@ html {
 	transition: .5s;
 	background-color: rgba(255, 255, 255, 0.6);
 }
+
+@media(max-width: 1024px) {
+	.menu {
+		padding: 10px 100px;
+	}
+}
+
+@media(max-width: 768px) {
+	.menu {
+		padding: 10px 1px;
+		font-size: 0.8em;
+	}
+
+	.principal {
+		font-size: 1.3em;
+	}
+}
+
+@media(max-width: 425px) {
+	.menu {
+		font-size: 0.5em;
+		margin: 0;
+	}
+
+	.principal {
+		font-size: 1em;
+	}
+
+	.menu a {
+		padding: 5px 25px;
+	}
+}
+
+@media(max-width: 375px) {
+	.menu a {
+		padding: 3px 19px;
+	}
+
+	.principal {
+		font-size: 0.8em;
+	}
+}
+
+@media(max-width: 320px) {
+	.menu a {
+		padding: 3px 12px;
+	}
+
+	.principal {
+		font-size: 0.8em;
+	}
+}
