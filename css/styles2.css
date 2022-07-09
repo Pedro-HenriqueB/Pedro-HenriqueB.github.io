@@ -22,7 +22,7 @@ html {
 
 .menu {
 	height: 25px;
-	padding: 1% 18%;
+	padding: 1% 25%;
 }
 
 .menu a {
@@ -172,6 +172,14 @@ html {
 	background-image: url(../img/login.jpg);
 	width: 504px;
 	height: 492px;
+	margin: 20px auto;
+}
+
+/* Imagem experiencia */
+#readytowork {
+	background-image: url(../img/readytowork.png);
+	width: 450px;
+	height: 450px;
 	margin: 20px auto;
 }
 
