@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedro H. Dev</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles2.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="header">
+				<div class="banner">
+					<h1>BACK-END</h1>
+					<hr>
+				<nav class="menu">
+					<a href="sobre.html">SOBRE</a>
+					<a href="front-end.html">FRONT-END</a>
+					<a href="index.html">VOLTAR</a>
+					<a href="#">EXPRIÊNCIA</a>
+				</nav>
+				</div>
+			</div>
+		</header>
+		<section id="sobre">
+			<main>
+				<div class="principal">
+					<p>
+						Aqui estão listados meus projetos de back-end, esses projetos foram realizados apenas com o intuito de praticar PHP e MySQL com método PDO realizando consultas, inserindo dados em uma tabela, atualizando dados e deletando dados ou seja CRUD, e também a criação e conexão do banco de dados.
+					</p>
+					<h2>Sistema de Gerenciamento</h2>
+					<p>
+						Esse sistema foi desenvolvido no meu estágio de Gestão de TI em uma escola para reduzir a quantidade de documentos registrados no papel e facilitar o acesso ás informações necessárias, foi utilizado PHP e MySQL para toda a estrutura do sistema devido a grande quantiade de material disponível na internet e foram as linguagens que decidi aprender por já serem fortemente consolidadas no mercado de trabalho, o método utilizado foi o PDO por ser muito recomendado devido a sua segurança na hora de realizar as funções.
+						Este sistema foi desenvolvido por módulos ou sejas cada parte tem sua devida área, mas aqui serão abordados mais especificamente as funcionalidades do sistema.
+						A interface do sistema é básicamente constituida por botões como o foco não foi o front end e nessa época eu não tinha muito conhecimento foi difícil unir tanto o back-end e o front-end, não havia orientação apenas o meu conhecimento e a internet.
+						Esse foi meu primeiro projeto até então antes disso eu havia apenas feito cursos e praticado com alguns exercícios, meu conhecimento em PHP e MySQL era mais básico do que é hoje mas esse projeto me deu a oportunidade de colocar em prática o que eu já sábia e perceber onde eu poderia melhorar e como melhorar.
+						<a href="https://github.com/Pedro-HenriqueB/Gerenciamento-APM" target="_blank">Link do Projeto no GitHub</a>
+					</p>
+					<h2>Controle de Estoque</h2>
+					<div class="imagem" id="controle-estoque"></div>
+					<p>
+						Na parte de controle de uniformes é possivel ver a quantidade em estoque destacado em vermelho e também um formulário para a baixa desses itens e dessa maneira era feito o controle da quantidade em estoque, colocando uma quantidade no formulário e clicando em baixa, não é necessário preencher um valor para cada item caso necessário dar baixa apenas em um item os outros campos podem ficar vazios e a baixa do item será executada normalmente como o sistema identifica se o campo está nulo ou não e realiza a baixa apenas nos campos que comtém um valor.
+					</p>
+					<h2>Cadastro, Exclusão e Informações dos Itens</h2>
+					<div class="imagem" id="opcoes"></div>
+					<p>
+						Descendo um pouco a página são mostradas as opções como adicionar novo item ou seja cadastrar um novo produto, excluir algum produto já cadastrado e informações dos itens cadastrados podendo também alterar informações como quantidade, preço, etc.
+					</p>
+					<h2>Fluxo de Caixa</h2>
+					<div class="imagem" id="caixa1"></div>
+					<p>
+						Na parte de fluxo de caixa primeiramente é necessário selecionar o tipo de operação na parte destacada em vermelho as operações são entrada/saída e tipo de pagamento Dinheiro, Cartão, Pix ou Cheque.
+						Após tudo estar devidamente selecionado e preencher a quantidade do item que será realizada a baixa basta clicar no botão "baixa" e todas as informações do pagamento serão registradas e a quantidade do item em estoque será recalculada de acordo com o tipo da operação.
+					</p>
+					<h2>Balanço e Caixa</h2>
+					<div class="imagem" id="caixa2"></div>
+					<p>
+						Primeiramente na parte de "Balanço" é possível ver todas as entradas e saídas que foram registradas no sistema, sendo possível também definir uma porcentagem de lucro para que o sistema faça o calculo utilizando o saldo total, esse valor de saldo total é feito através das vendas subtraida do valor de compra ou seja, por exemplo se eu adquiri 10 camisetas por <br> R$ 10,00 meu saldo é de R$ -100,00 mas vendendo cada uma delas por R$ 15,00 o novo saldo seria de R$ 50,00.
+						O calculo de lucro é feito multiplicando o saldo total pelo valor desejado de lucro, caso necessário tirar 10% de lucro desse valor é necessário inserir 0.1 no campo lucro e o sistema fará o calculo e o restante do valor deve ser usado para a compra de novos itens.
+					</p>
+					<div class="imagem" id="balanco"></div>
+					<p>
+						Agora na parte de Caixa, esse foi um pedido que me fizeram durante o desenvolvimento do sistema para poder separar as vendas por períodos e facilitar a consulta.
+					</p>
+					<div class="imagem" id="caixa"></div>
+					<h2>Gerador de Contrato</h2>
+					<div class="imagem" id="contrato"></div>
+					<p>
+						Na parte de contrato, esse formulário era para o cadastro dos dados dos alunos tornando possível gerar o contrato automáticamente alterando apenas os dados específicos de cada aluno.
+						os dados ficam salvos para que não seja necessário inserir os dados do aluno novamento caso seja necessário gerar o contrato novamente para um mesmo aluno e sendo possível excluir os dados de qualquer aluno através do nome.
+					</p>
+					<div class="imagem" id="contrato2"></div>
+					<h2>Contrato Gerado</h2>
+					<div class="imagem" id="contrato3"></div>
+					<div class="imagem" id="contrato3-2"></div>
+					<h2>Claúsulas</h2>
+					<div class="imagem" id="clausula"></div>
+					<p>
+						Na parte de claúsulas é bem simples, basta inserir as claúsulas e salva-las e ao gerar o contrato o sistema irá inserir logo acima os dados dos alunos que já estão salvos no php, ou seja as cláusulas são a parte estática do contrato.
+					</p>
+					<h2>Relatórios</h2>
+					<div class="imagem" id="relatorio"></div>
+					<p>
+						A página de relatórios oferece uma opção igual a página de caixa mas a diferença é que aqui é possível ver de todas áreas de uma vez só tudo junto em uma única tela e também oferece a opção de filto por data.
+					</p>
+					<div class="imagem" id="relatorio2"></div>
+					<h2>Controle de Armários</h2>
+					<div class="imagem" id="armario"></div>
+					<p>
+						Ao gerar o contrato para um armário o sistema gera o nome e o número do ármario inseridos no contrato e é possível visualizar quem locou qual armário, e ao clicar em visualizar o sistema oferece uma melhor visualização e um filtro por situação do armário.
+					</p>
+					<div class="imagem" id="armario2"></div>
+					<hr>
+					<h2>Sistema de Login</h2>
+					Esse sistema de login é parte de um projeto na qual é uma versão atualizada do sistema de gerenciamento no qual ainda estou trabalhando.
+					<div class="imagem" id="login"></div>
+					<p>
+						O sistema de login eu não tirei referência de lugar nenhum, apenas fiz da maneira que me fazia mais sentido, o login é realizado através de um select com o valor inserido no campo usuário se o usuário exister ele faz um select da senha e usa o where usuário passando o valor do campo usuário para o where,
+						se o select do usuário nao retornar nada ele exibe a mensagem de usuário inexistente, caso o usuário exista mas a senha não corresponde ao usuário será exibida a mensagem de senha incorreta e por fim caso os 2 campos estejam correto o usuário é direcionado a página principal.
+					</p>
+				</div>
+			</main>
+		</section>
+	</div>
+</body>
+</html>

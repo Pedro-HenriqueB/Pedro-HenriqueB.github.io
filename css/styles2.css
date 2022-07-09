@@ -3,6 +3,7 @@ html {
 	background-image: url(../img/html-bg.jpg);
 }
 
+
 /* cabecalho */
 .banner {
 	background-color: rgba(255, 255, 255, 0.3);
@@ -39,11 +40,12 @@ html {
 	color: white;
 	padding: 10px;
 	background-color: rgba(255, 255, 255, 0.3);
-	margin: 0px 15%;
+	margin: 0px 10%;
 }
 
 .principal p {
 	text-align: justify;
+	margin: 20px 50px;
 }
 
 .principal h2 {
@@ -60,6 +62,117 @@ html {
 	font-weight: bold;
 	font-size: 1.5em;
 	color: white;
+}
+
+.imagem {
+	background-size: cover;
+	background-position: center;
+	width: 700px;
+	height: 600px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.principal hr {
+	margin: 60px auto;
+}
+
+/* imagens do sistema gerenciamentoapm */
+#controle-estoque {
+	background-image: url(../img/controle-estoque.jpg);
+}
+
+#opcoes {
+	background-image: url(../img/opcoes.jpg);
+	width: 620px;
+	height: 630px;
+}
+
+#caixa1 {
+	background-image: url(../img/caixa1.jpg);
+	width: 684px;
+	height: 554px;
+}
+
+#caixa2 {
+	background-image: url(../img/caixa2.jpg);
+	width: 598px;
+	height: 622px;
+}
+
+#balanco {
+	background-image: url(../img/balanco.jpg);
+	width: 692px;
+	height: 492px;
+}
+
+#caixa {
+	background-image: url(../img/caixa.jpg);
+	width: 752px;
+	height: 282px;
+}
+
+#contrato {
+	background-image: url(../img/contrato.jpg);
+	width: 710px;
+	height: 604px;
+}
+
+#contrato2 {
+	background-image: url(../img/contrato2.jpg);
+	width: 646px;
+	height: 630px;
+}
+
+#contrato3 {
+	background-image: url(../img/contrato3.jpg);
+	width: 930px;
+	height: 604px;
+}
+
+#contrato3-2 {
+	background-image: url(../img/contrato3-2.jpg);
+	width: 930px;
+	height: 608px;
+	margin: 20px auto;
+}
+
+#clausula {
+	background-image: url(../img/clausula.jpg);
+	width: 930px;
+	height: 612px;
+}
+
+#relatorio {
+	background-image: url(../img/relatorio.jpg);
+	width: 646px;
+	height: 622px;
+}
+
+#relatorio2 {
+	background-image: url(../img/relatorio2.jpg);
+	width: 648px;
+	height: 606px;
+}
+
+#armario {
+	background-image: url(../img/armario.jpg);
+	width: 660px;
+	height: 604px;
+}
+
+#armario2 {
+	background-image: url(../img/armario2.jpg);
+	width: 908px;
+	height: 554px;
+}
+
+/*imagens do novo sistema GAPM*/
+#login {
+	background-image: url(../img/login.jpg);
+	width: 504px;
+	height: 492px;
+	margin: 20px auto;
 }
 
 /* hovers */
