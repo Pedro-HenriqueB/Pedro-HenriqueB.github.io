@@ -355,7 +355,7 @@ html {
 
 	#controle-estoque {
 	background-image: url(../img/controle-estoque.jpg);
-	width: calc(700px - 400px);
+	width: calc(700px - 450px);
 	height: calc(600px - 400px);
 }
 
@@ -367,7 +367,7 @@ html {
 
 #caixa1 {
 	background-image: url(../img/caixa1.jpg);
-	width: calc(684px - 400px);
+	width: calc(684px - 450px);
 	height: calc(554px - 400px);
 }
 
@@ -379,7 +379,7 @@ html {
 
 #balanco {
 	background-image: url(../img/balanco.jpg);
-	width: calc(692px - 400px);
+	width: calc(692px - 450px);
 	height: calc(492px - 400px);
 }
 
@@ -391,7 +391,7 @@ html {
 
 #contrato {
 	background-image: url(../img/contrato.jpg);
-	width: calc(710px - 400px);
+	width: calc(710px - 450px);
 	height: calc(604px - 400px);
 }
 
@@ -403,43 +403,43 @@ html {
 
 #contrato3 {
 	background-image: url(../img/contrato3.jpg);
-	width: calc(930px - 620px);
+	width: calc(930px - 670px);
 	height: calc(604px - 400px);
 }
 
 #contrato3-2 {
 	background-image: url(../img/contrato3-2.jpg);
-	width: calc(930px - 620px);
+	width: calc(930px - 670px);
 	height: calc(608px - 400px);
 }
 
 #clausula {
 	background-image: url(../img/clausula.jpg);
-	width: calc(930px - 620px);
+	width: calc(930px - 670px);
 	height: calc(612px - 400px);
 }
 
 #relatorio {
 	background-image: url(../img/relatorio.jpg);
-	width: calc(646px - 350px);
+	width: calc(646px - 400px);
 	height: calc(622px - 350px);
 }
 
 #relatorio2 {
 	background-image: url(../img/relatorio2.jpg);
-	width: calc(648px - 350px);
+	width: calc(648px - 400px);
 	height: calc(606px - 350px);
 }
 
 #armario {
 	background-image: url(../img/armario.jpg);
-	width: calc(660px - 350px);
+	width: calc(660px - 400px);
 	height: calc(604px - 350px);
 }
 
 #armario2 {
 	background-image: url(../img/armario2.jpg);
-	width: calc(908px - 600px);
+	width: calc(908px - 650px);
 	height: calc(554px - 400px);
 }
 
