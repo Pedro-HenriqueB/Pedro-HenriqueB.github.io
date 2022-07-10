@@ -198,6 +198,29 @@ html {
 		padding: 1% 5.5%;
 	}
 
+	#contrato3 {
+	background-image: url(../img/contrato3.jpg);
+	width: calc(930px - 300px);
+	height: calc(604px - 300px);
+}
+
+#contrato3-2 {
+	background-image: url(../img/contrato3-2.jpg);
+	width: calc(930px - 300px);
+	height: calc(608px - 300px);
+}
+
+#clausula {
+	background-image: url(../img/clausula.jpg);
+	width: calc(930px - 200px);
+	height: calc(612px - 200px);
+}
+
+#armario2 {
+	background-image: url(../img/armario2.jpg);
+	width: calc(908px - 250px);
+	height: calc(554px - 250px);
+}
 }
 
 @media(max-width: 768px) {
@@ -209,6 +232,111 @@ html {
 	.principal {
 		font-size: 1.3em;
 	}
+
+	#controle-estoque {
+	background-image: url(../img/controle-estoque.jpg);
+	width: calc(700px - 200px);
+	height: calc(600px - 200px);
+}
+
+#opcoes {
+	background-image: url(../img/opcoes.jpg);
+	width: calc(620px - 200px);
+	height: calc(630px - 200px);
+}
+
+#caixa1 {
+	background-image: url(../img/caixa1.jpg);
+	width: calc(684px - 200px);
+	height: calc(554px - 200px);
+}
+
+#caixa2 {
+	background-image: url(../img/caixa2.jpg);
+	width: calc(598px - 200px);
+	height: calc(622px - 200px);
+}
+
+#balanco {
+	background-image: url(../img/balanco.jpg);
+	width: calc(692px - 200px);
+	height: calc(492px - 200px);
+}
+
+#caixa {
+	background-image: url(../img/caixa.jpg);
+	width: calc(752px - 200px);
+	height: calc(282px - 200px);
+}
+
+#contrato {
+	background-image: url(../img/contrato.jpg);
+	width: calc(710px - 200px);
+	height: calc(604px - 200px);
+}
+
+#contrato2 {
+	background-image: url(../img/contrato2.jpg);
+	width: calc(646px - 200px);
+	height: calc(630px - 200px);
+}
+
+#contrato3 {
+	background-image: url(../img/contrato3.jpg);
+	width: calc(930px - 350px);
+	height: calc(604px - 350px);
+}
+
+#contrato3-2 {
+	background-image: url(../img/contrato3-2.jpg);
+	width: calc(930px - 350px);
+	height: calc(608px - 350px);
+}
+
+#clausula {
+	background-image: url(../img/clausula.jpg);
+	width: calc(930px - 350px);
+	height: calc(612px - 350px);
+}
+
+
+#relatorio {
+	background-image: url(../img/relatorio.jpg);
+	width: calc(646px - 200px);
+	height: calc(622px - 200px);
+}
+
+#relatorio2 {
+	background-image: url(../img/relatorio2.jpg);
+	width: calc(648px - 200px);
+	height: calc(606px - 200px);
+}
+
+#armario {
+	background-image: url(../img/armario.jpg);
+	width: calc(660px - 200px);
+	height: calc(604px - 200px);
+}
+
+#armario2 {
+	background-image: url(../img/armario2.jpg);
+	width: calc(908px - 350px);
+	height: calc(554px - 350px);
+}
+
+/*imagens do novo sistema GAPM*/
+#login {
+	background-image: url(../img/login.jpg);
+	width: calc(504px - 200px);
+	height: calc(492px - 200px);
+}
+
+/* Imagem experiencia */
+#readytowork {
+	background-image: url(../img/readytowork.png);
+	width: calc(450px - 200px);
+	height: calc(450px - 200px);
+}
 }
 
 @media(max-width: 425px) {
@@ -224,6 +352,110 @@ html {
 	.principal {
 		font-size: 1em;
 	}
+
+	#controle-estoque {
+	background-image: url(../img/controle-estoque.jpg);
+	width: calc(700px - 400px);
+	height: calc(600px - 400px);
+}
+
+#opcoes {
+	background-image: url(../img/opcoes.jpg);
+	width: calc(620px - 400px);
+	height: calc(630px - 400px);
+}
+
+#caixa1 {
+	background-image: url(../img/caixa1.jpg);
+	width: calc(684px - 400px);
+	height: calc(554px - 400px);
+}
+
+#caixa2 {
+	background-image: url(../img/caixa2.jpg);
+	width: calc(598px - 400px);
+	height: calc(622px - 400px);
+}
+
+#balanco {
+	background-image: url(../img/balanco.jpg);
+	width: calc(692px - 400px);
+	height: calc(492px - 400px);
+}
+
+#caixa {
+	background-image: url(../img/caixa.jpg);
+	width: calc(752px - 400px);
+	height: calc(282px - 400px);
+}
+
+#contrato {
+	background-image: url(../img/contrato.jpg);
+	width: calc(710px - 400px);
+	height: calc(604px - 400px);
+}
+
+#contrato2 {
+	background-image: url(../img/contrato2.jpg);
+	width: calc(646px - 400px);
+	height: calc(630px - 400px);
+}
+
+#contrato3 {
+	background-image: url(../img/contrato3.jpg);
+	width: calc(930px - 620px);
+	height: calc(604px - 400px);
+}
+
+#contrato3-2 {
+	background-image: url(../img/contrato3-2.jpg);
+	width: calc(930px - 620px);
+	height: calc(608px - 400px);
+}
+
+#clausula {
+	background-image: url(../img/clausula.jpg);
+	width: calc(930px - 620px);
+	height: calc(612px - 400px);
+}
+
+#relatorio {
+	background-image: url(../img/relatorio.jpg);
+	width: calc(646px - 350px);
+	height: calc(622px - 350px);
+}
+
+#relatorio2 {
+	background-image: url(../img/relatorio2.jpg);
+	width: calc(648px - 350px);
+	height: calc(606px - 350px);
+}
+
+#armario {
+	background-image: url(../img/armario.jpg);
+	width: calc(660px - 350px);
+	height: calc(604px - 350px);
+}
+
+#armario2 {
+	background-image: url(../img/armario2.jpg);
+	width: calc(908px - 600px);
+	height: calc(554px - 400px);
+}
+
+/*imagens do novo sistema GAPM*/
+#login {
+	background-image: url(../img/login.jpg);
+	width: calc(504px - 250px);
+	height: calc(492px - 250px);
+}
+
+/* Imagem experiencia */
+#readytowork {
+	background-image: url(../img/readytowork.png);
+	width: calc(450px - 400px);
+	height: calc(450px - 400px);
+}
 }
 
 @media(max-width: 375px) {
