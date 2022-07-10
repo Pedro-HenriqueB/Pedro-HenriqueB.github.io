@@ -453,8 +453,8 @@ html {
 /* Imagem experiencia */
 #readytowork {
 	background-image: url(../img/readytowork.png);
-	width: calc(450px - 400px);
-	height: calc(450px - 400px);
+	width: calc(450px - 200px);
+	height: calc(450px - 200px);
 }
 }
 
